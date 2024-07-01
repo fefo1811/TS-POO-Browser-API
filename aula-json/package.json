@@ -1,0 +1,12 @@
+{
+  "name": "aula-json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "aula-json.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Felipe da Silva Rodrigues",
+  "license": "ISC"
+}
