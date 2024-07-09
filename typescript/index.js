@@ -1,4 +1,16 @@
 "use strict";
-let num1 = 5;
-let num2 = 3;
-console.log(num1 + num2);
+function chooseNumber(num1, num2, criterio) {
+    switch (criterio) {
+        case 'greater':
+            return num1 > num2 ? num1 : num2;
+        case 'lower':
+            return num1 < num2 ? num1 : num2;
+        default:
+            const numeroAleatorio = Math.random();
+            if (numeroAleatorio >= 0.5) {
+                return num1;
+            }
+            return num2;
+    }
+}
+console.log(chooseNumber(2, 5, 'lower'));
